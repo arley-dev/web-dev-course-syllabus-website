@@ -1,0 +1,27 @@
+.no-padding {
+    padding: 0px !important;
+}
+
+.no-border-radius {
+    border-radius: 0px !important;
+}
+
+#type {
+    display: flex;
+    flex-direction: row;
+}
+
+#type div {
+    display: flex;
+    border: none;
+    flex: 1 1;
+    margin: auto 0px;
+}
+
+#type div * {
+    padding: 0px 5px;
+}
+
+.no-list-dot {
+    list-style-type: none;
+}
